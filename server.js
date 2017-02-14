@@ -44,7 +44,7 @@ function listen() {
   console.log('Example app listening at http://' + host + ':' + port);
 }
 
-app.use(express.static('schwimmen/'));
+app.use(express.static('./'));
 
 
 // WebSocket Portion
