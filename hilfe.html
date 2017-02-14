@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hilfe</title>
+        <link rel="stylesheet" href="bootstrap.css"/>
+    </head>
+    <body>
+        <div class="col-sm-12, a">Hilfe</div>
+        <div class="col-sm-12"><br></div>
+        <div class="col-sm-12, b"> <p>Spielanleitung</p></div>
+        <div class="col-sm-12"><br></div>
+        <div class="col-sm-12, c">Spieler und Karten</div>
+        <div class="col-sm-12"><br></div>
+        <div class="d"> Schwimmen spielt man mit 2 - 8 Spieler.<br>
+            Jeder Spieler beginnt mit 3 Leben (man kann auch mit mehr Leben Spielen).<br>
+            Wenn ein Spieler alle 3 Leben verloren hat, schwimmt er und ist somit vom Verlieren bedroht.<br>
+            Verliert er ein Spiel w&auml;hrend er schwimmt, wird er aus dem Spiel ausgeschieden.<p></p>
+            Schwimmen wird mit normalen Skatkarten gespielt (7 - 8 - 9 - 10 - B - D - K - A)
+        </div>
+        <div class="col-sm-12"><br></div>
+        <div class="col-sm-12"><br></div>
+        <div class="row">
+            <div class="col-md-5" id="leftside"> 
+                <div class="d">
+                    <table class="table" >
+                        <thead>
+                            <tr><th><div class="e">Karte</div></th><th><div class="e">Wert</div></th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Ass</td><td>11</td></tr>
+                            <tr><td>K&ouml;nig, Dame, Bube, Zehn</td><td>10</td></tr>
+                            <tr><td>Neun</td><td>9</td></tr>
+                            <tr><td>Acht</td><td>8</td></tr>
+                            <tr><td>Sieben</td><td>7</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12"><br></div>
+        <div class="d">
+            Der Kartengeber verteilt jedem Spieler 3 Karten und sich selbst eine Extrahand.<br>
+            Der Kartengeber entscheidet f&uuml;r eine Hand und deckt die anderen 3 Karten auf.<br>
+            nun beginnt das Spiel, im Uhrzeigersinn.<p></p>
+        </div>
+        <div class="col-sm-12"><br></div>
+        <div class="col-sm-12, c">Spiel</div>
+        <div class="col-sm-12"><br></div>
+        <div class="d">
+            Das Spiel beginnt im Uhrzeigersinn, der n&auml;chste Spieler zum Kartengeber beginnt.<br>
+            Wenn man an der Reihe ist, hat man 3 M&ouml;glichkeiten:<p></p>
+
+            1. Man tauscht eine Handkarte gegen eine Karte, die offen liegt.<br>
+            2. Man tauscht alle 3 Handkarten gegen die 3 Karten, die offen liegen.<br>
+            3. Man &uuml;berspringt sein Zug in dem man "Pass" sagt. Das hei&szlig;t man tauscht keine Karten.<p></p>
+
+            Danach kommt der n&auml;chste Spieler.<br>
+            Wenn man eine spezielle Kombination hat (entweder gleich nach dem Geben oder nach einem Kartentausch),<br> 
+            dann muss man diese sofort offen auf den Tisch legen, und diese Hand ist damit entschieden<br> 
+            (es gibt f&uuml;r die anderen keine M&ouml;glichkeit mehr, Karten zu tauschen).<p></p>
+
+            Diese speziellen Kombinationen sind:<p></p>
+
+            <strong>Feuer:</strong> eine Hand mit drei Assen mit dem Punktwert von 33;<br>
+            <strong>Schnauz (oder 31):</strong>das sind drei Karten der gleichen Farbe, deren Punktwerte zusammen 31 ergeben<br>
+            &ndash; also das Ass und zwei Karten, die 10 Punkte wert sind.
+
+            Wenn alle Spieler nacheinander gepasst haben, <br>
+            dann werden die drei offen liegenden Karten durch drei neue Karten vom Talon<br>
+            (dem Stapel, der nach dem Geben &uuml;brig blieb) ersetzt. Danach geht das Spiel wie &uuml;blich weiter. <p></p>
+
+            Entschlie&szlig;t sich ein Spieler zu Klopfen, da er denkt er hat eine hohe Punktzahl,<br>
+            d&uuml;rfen alle Spieler noch einmal die Karten tauschen, bis der klopfende Spieler<br>
+            wieder dran ist. Dann werden alle Karten aufgedeckt.<p></p>
+        </div>
+        <div class="col-sm-12"><br></div>
+
+        <div class="col-sm-12, c">Wertung</div>
+        <div class="col-sm-12"><br></div>
+        <div class="d">
+            Wenn das Spielen einer Hand zu Ende ist, dann werden die Karten aller Spieler offen auf dem Tisch gelegt.<br> 
+            Man erh&auml;lt den Punktwert einer Hand, indem man die Punkte der Karten in einer beliebigen Farbe addiert.<br>
+            Z. B. Herz 7, Herz 9, Pik K&ouml;nig ergeben 16 Punkte f&uuml;r die beiden Herzkarten; <br>
+            Kreuz 8, Karo 9, Pik Bube ergeben 10 Punkte f&uuml;r den Pik Buben.<p></p>
+
+            Drei Karten des gleichen Ranges, wie drei Damen oder drei Siebenen, <br>
+            z&auml;hlen 30,5, es sei denn, dass es drei Asse sind, denn diese z&auml;hlen 32 Punkte,<br>
+            wie bereits oben erw&auml;hnt. <br>
+            Also schlagen Karo Ass, Kreuz Ass, Herz Ass (32) die drei Karten Pik Ass, Pik K&ouml;nig, Pik Bube (31),<br>
+            letztere schlagen Pik 9, Herz 9, Kreuz 9 (30,5), und diese drei Karten schlagen Kreuz K&ouml;nig, Kreuz Dame, Kreuz Bube (30).
+
+            Ist das Spiel einer Hand beendet, weil ein Spieler "geschlossen" oder Schnauz (31) erkl&auml;rt hat,<br> 
+            verliert der Spieler mit der niedrigsten Punktzahl eine Leben. Haben 2 Spieler die gleiche Punktzahl,<br>
+            verlieren beide ein Leben.<p></p>
+
+            Wenn das Spiel durch eine Erkl&auml;rung von Feuer beendet wird,<br>
+            verlieren alle Spieler ein Leben, au&szlig;er dem, der Feuer erkl&auml;rt hat. <br>
+
+            Das Spiel geht weiter, bis alle Spieler bis auf einen ausgeschieden sind.<br>
+            Dieser letzte "&Uuml;berlebende" hat die Partie gewonnen und bekommt einen Preis.
+
+            Es kann manchmal passieren, dass die beiden letzten  &uuml;berlebenden Spieler<br>
+            gleiche Punktzahlen in der gleichen Farbe haben, wenn einer schlie&szlig;t. <br>
+            In diesem Fall wird der Gewinn geteilt; wenn die Spieler aber unbedingt einen einzigen Gewinner haben wollen, <br>
+            dann m&uuml;ssen sie noch eine Hand spielen, um eine Entscheidung herbeizuf&uuml;hren.<p></p> 
+        </div> 
+        
+        <a href="index.html" class="btn btn-baha btn-block">Homepage</a>
+        
+
+    </body>
+</html>
